@@ -34,3 +34,4 @@ clean:
 	$(RM) dnsmasq
 
 .PHONY: install check clean
+.PRECIOUS: %.dl
