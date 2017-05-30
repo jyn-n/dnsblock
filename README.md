@@ -1,6 +1,6 @@
 # dnsblock
 
-Dnsblock provides a list of advertising, shocking, tracking and otherwise harmful sites that may be brought to your computer via your distro's package manager.
+Dnsblock provides a list of advertising, shocking, tracking and otherwise harmful sites that may be brought to your computer via your distro's package manager. When used with dnsmasq, dnsblock does not interfere in any way with your local dns setup such as hosts file.
 
 ## installation
 
@@ -26,7 +26,7 @@ To update the blocklist manually:
 * cd files
 * make update
 
-## current list of hosts that provide blocklists for this package:
+## current list of blocklists included
 
 * http://someonewhocares.org/hosts/zero/hosts
 * http://pgl.yoyo.org/as/serverlist.php?mimetype=plaintext
