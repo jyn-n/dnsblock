@@ -1,11 +1,13 @@
 DESTDIR ?= /
 
+CMDSEP ?= \
+
 CAT ?= cat
 RM ?= rm -f
 SH ?= sh
 
 name = dnsblock
-hosts = someonewhocares
+hosts = someonewhocares yoyo
 
 all: dnsmasq
 
@@ -19,19 +21,23 @@ check:
 dnsmasq: blocklist
 	$(SH) make_dnsmasq.sh $@ $<
 
-blocklist: $(foreach f,$(hosts),$f.blocklist)
-	$(CAT) $< > $@
-
-%.blocklist: %.dl
-	$(SH) make_list.sh $@ $<
+blocklist: $(foreach f,$(hosts),$f.dl)
+	$(CAT) $^ | sort | uniq > $@
 
 %.dl:
 	$(SH) update_dl_file.sh $@
 
+%.dl.force:
+	$(SH) update_dl_file.sh $(@:.force=)
+
+fetch_lists: $(foreach f,$(hosts),$f.dl.force)
+
+update: fetch_lists all
+
 clean:
-	$(RM) $(foreach f,$(hosts),$f.blocklist $f.dl)
+	$(RM) $(foreach f,$(hosts),$f.dl)
 	$(RM) blocklist
 	$(RM) dnsmasq
 
-.PHONY: install check clean
+.PHONY: install check clean %.force update
 .PRECIOUS: %.dl
