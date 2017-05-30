@@ -5,7 +5,6 @@
 
 # Maintainer: jynn <uaggz@student.kit.edu>
 pkgname=dnsblock-git
-pkgver=0.1
 pkgrel=1
 epoch=
 pkgdesc="get a list of servers to block ads using your dns"
@@ -36,6 +35,11 @@ prepare() {
 check() {
 	cd "${srcdir}/dnsblock/files"
 	make -k check
+}
+
+pkgver() {
+	cd "${srcdir}/dnsblock/files"
+	cat version
 }
 
 package() {
