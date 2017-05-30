@@ -1,7 +1,10 @@
 #!/bin/sh
 
 cd files
-make update
+make fetch_lists
+make -q && exit(0)
+make
+cd ..
 git commit -a -m "automatic update @ $(date)"
 git push
 

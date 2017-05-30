@@ -9,8 +9,8 @@ pkgver=0.1
 pkgrel=1
 epoch=
 pkgdesc="get a list of servers to block ads using your dns"
-arch=(i686 x86_64)
-url=""
+arch=('any')
+url="https://github.com/jyn-n/dnsblock"
 license=('GPL')
 groups=()
 depends=(coreutils curl)
@@ -24,21 +24,21 @@ backup=()
 options=()
 install=
 changelog=
-source=(git+https://github.com/jyn-n/legendary-lamp.git)
+source=(git+https://github.com/jyn-n/dnsblock.git)
 noextract=()
 md5sums=('SKIP')
 validpgpkeys=()
 
 prepare() {
-	cd "${srcdir}/legendary-lamp/files"
+	cd "${srcdir}/dnsblock/files"
 }
 
 check() {
-	cd "${srcdir}/legendary-lamp/files"
+	cd "${srcdir}/dnsblock/files"
 	make -k check
 }
 
 package() {
-	cd "${srcdir}/legendary-lamp/files"
+	cd "${srcdir}/dnsblock/files"
 	make DESTDIR="$pkgdir/" install
 }
