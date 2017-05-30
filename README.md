@@ -9,7 +9,6 @@ Dnsblock provides a list of advertising, shocking, tracking and otherwise harmfu
 * cd package
 * makepkg
 * install via pacman
-* point dnsmasq to /etc/dnsblock/dnsmasq or use /etc/dnsblock/blocklist in any way you like
 
 ### other
 
