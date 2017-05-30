@@ -1,33 +1,16 @@
-# This is an example PKGBUILD file. Use this as a start to creating your own,
-# and remove these comments. For more information, see 'man PKGBUILD'.
-# NOTE: Please fill out the license field for your package! If it is unknown,
-# then please put 'unknown'.
-
 # Maintainer: jynn <uaggz@student.kit.edu>
 pkgname=dnsblock-git
-pkgver=r15.cf642dc
+pkgver=r16.ed1bc54
 pkgrel=1
-epoch=
 pkgdesc="get a list of servers to block ads using your dns"
 arch=('any')
 url="https://github.com/jyn-n/dnsblock"
 license=('GPL')
-groups=()
-depends=(coreutils curl)
-makedepends=()
-checkdepends=()
-optdepends=()
+optdepends=(coreutils curl bash)
 provides=('dnsblock')
 conflicts=('dnsblock')
-replaces=()
-backup=()
-options=()
-install=
-changelog=
 source=(git+https://github.com/jyn-n/dnsblock.git)
-noextract=()
 md5sums=('SKIP')
-validpgpkeys=()
 
 prepare() {
 	cd "${srcdir}/dnsblock/files"
@@ -46,3 +29,4 @@ package() {
 	cd "${srcdir}/dnsblock/files"
 	make DESTDIR="$pkgdir/" install
 }
+
