@@ -6,6 +6,10 @@ Dnsblock provides a list of advertising, shocking, tracking and otherwise harmfu
 
 ### archlinux
 
+* install from aur
+
+or
+
 * cd package
 * makepkg
 * install via pacman

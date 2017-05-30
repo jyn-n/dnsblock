@@ -1,3 +1,4 @@
 *.swp
 /package/*
 !/package/PKGBUILD
+!/package/dnsblock-git/
