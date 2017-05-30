@@ -30,4 +30,6 @@ To update the blocklist manually:
 
 * http://someonewhocares.org/hosts/zero/hosts
 * http://pgl.yoyo.org/as/serverlist.php?mimetype=plaintext
+* https://raw.githubusercontent.com/azet12/KADhosts/master/KADhosts.txt
+* https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts
 

@@ -1,7 +1,11 @@
 #!/bin/bash
 
 declare -A url
-url=( ['someonewhocares.dl']=http://someonewhocares.org/hosts/zero/hosts ['yoyo.dl']=http://pgl.yoyo.org/as/serverlist.php?mimetype=plaintext )
+url=( ['someonewhocares.dl']=http://someonewhocares.org/hosts/zero/hosts \
+	['yoyo.dl']=http://pgl.yoyo.org/as/serverlist.php?mimetype=plaintext \
+	['kadhosts.dl']=https://raw.githubusercontent.com/azet12/KADhosts/master/KADhosts.txt \
+	['badd_boyz.dl']=https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts \
+	)
 
 dlfile=$(mktemp)
 tmp1=$(mktemp)
@@ -15,6 +19,9 @@ case $1 in
 		;;
 	'yoyo.dl')
 		cat $dlfile > $tmp1
+		;;
+	'kadhosts.dl'|'badd_boyz.dl')
+		sed -n 's/^0.0.0.0//p' < $dlfile > $tmp1
 		;;
 esac
 
