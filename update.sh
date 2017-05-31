@@ -10,6 +10,7 @@ makepkg
 cp PKGBUILD dnsblock-git
 cd dnsblock-git
 git commit -a -m "automatic update @ $(date)"
+git push
 cd ..
 cd ..
 git commit -a -m "automatic update @ $(date)"
