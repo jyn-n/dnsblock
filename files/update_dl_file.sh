@@ -21,7 +21,7 @@ case $1 in
 		cat $dlfile > $tmp1
 		;;
 	'kadhosts.dl'|'badd_boyz.dl')
-		sed -n 's/^0.0.0.0//p' < $dlfile > $tmp1
+		sed -n 's/^0.0.0.0\s*//p' < $dlfile > $tmp1
 		;;
 esac
 
