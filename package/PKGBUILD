@@ -26,8 +26,8 @@ pkgver() {
 
 package() {
 	cd "${srcdir}/dnsblock/files"
-	mkdir -p $pkgdir/etc/$(dnsblock)
-	install -m 0644 blocklist $pkgdir/etc/$dnsblock
-	install -m 0644 dnsmasq $pkgdir/etc/$dnsblock
+	mkdir -p $pkgdir/etc/dnsblock
+	install -m 0644 blocklist $pkgdir/etc/dnsblock
+	install -m 0644 dnsmasq $pkgdir/etc/dnsblock
 }
 
