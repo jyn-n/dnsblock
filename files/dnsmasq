@@ -3768,6 +3768,7 @@ address=/apple.com------support.host/0.0.0.0
 address=/apple.com.virus-mac.com/0.0.0.0
 address=/apple.com-webbrowsing-security.bid/0.0.0.0
 address=/apple.com-webbrowsing-security.download/0.0.0.0
+address=/apple.com-webbrowsing-security.review/0.0.0.0
 address=/appleglobal.112.2o7.net/0.0.0.0
 address=/appleid-verification.com/0.0.0.0
 address=/apple-protection.info/0.0.0.0
