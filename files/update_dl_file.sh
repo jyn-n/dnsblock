@@ -5,6 +5,7 @@ url=( ['someonewhocares.dl']=http://someonewhocares.org/hosts/zero/hosts \
 	['yoyo.dl']=http://pgl.yoyo.org/as/serverlist.php?mimetype=plaintext \
 	['kadhosts.dl']=https://raw.githubusercontent.com/azet12/KADhosts/master/KADhosts.txt \
 	['badd_boyz.dl']=https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts \
+	['sbc.dl']=http://sbc.io/hosts/hosts \
 	)
 
 dlfile=$(mktemp)
@@ -22,6 +23,9 @@ case $1 in
 		;;
 	'kadhosts.dl'|'badd_boyz.dl')
 		sed -n 's/^0.0.0.0\s*//p' < $dlfile > $tmp1
+		;;
+	'sbc.dl')
+		sed -n 's/^0.0.0.0\s*//p' < $dlfile | sed '/^0.0.0.0$/d' >  $tmp1
 		;;
 esac
 

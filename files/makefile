@@ -7,7 +7,7 @@ RM ?= rm -f
 SH ?= sh
 
 name = dnsblock
-hosts = someonewhocares yoyo kadhosts badd_boyz
+hosts = someonewhocares yoyo kadhosts badd_boyz sbc
 
 all: dnsmasq
 
