@@ -29,5 +29,7 @@ package() {
 	mkdir -p $pkgdir/etc/dnsblock
 	install -m 0644 blocklist $pkgdir/etc/dnsblock
 	install -m 0644 dnsmasq $pkgdir/etc/dnsblock
+
+	[[ systemctl is-active dnsmasq.service ]] && systemctl restart dnsmasq.service
 }
 
