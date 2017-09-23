@@ -1,6 +1,6 @@
 # Maintainer: jynn <uaggz@student.kit.edu>
 pkgname=dnsblock-git
-pkgver=r69.888b254
+pkgver=r73.a18e842
 pkgrel=1
 pkgdesc="get a list of servers to block ads using your dns"
 arch=('any')
@@ -29,7 +29,5 @@ package() {
 	mkdir -p $pkgdir/etc/dnsblock
 	install -m 0644 blocklist $pkgdir/etc/dnsblock
 	install -m 0644 dnsmasq $pkgdir/etc/dnsblock
-
-	[[ systemctl is-active dnsmasq.service ]] && systemctl restart dnsmasq.service
 }
 
