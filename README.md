@@ -36,4 +36,5 @@ To update the blocklist manually:
 * http://pgl.yoyo.org/as/serverlist.php?mimetype=plaintext
 * https://raw.githubusercontent.com/azet12/KADhosts/master/KADhosts.txt
 * https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts
+* http://sbc.io/hosts/hosts
 
