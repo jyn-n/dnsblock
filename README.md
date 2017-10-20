@@ -2,33 +2,35 @@
 
 Dnsblock provides a list of advertising, shocking, tracking and otherwise harmful sites that may be brought to your computer via your distro's package manager. When used with dnsmasq, dnsblock does not interfere in any way with your local dns setup such as hosts file.
 
-## installation
+## Installation
 
-### archlinux
+### Arch Linux
+ #### AUR
+* install from the [AUR](https://aur.archlinux.org/packages/dnsblock-git/) 
 
-* install from aur
+#### From PKGBUILD
+* `git clone https://github.com/jyn-n/dnsblock.git`
+* `cd dnsblock/package` 
+* `makepkg`
+* Install the package using `pacman`
 
-or
 
-* cd package
-* makepkg
-* install via pacman
+### Other Distros
 
-### other
+* `git clone https://github.com/jyn-n/dnsblock.git`
+* `cd dnsblock/files`
+*  `make install`
 
-* cd files
-* make install
-
-## usage
+## Usage
 
 * install
 * point dnsmasq to /etc/dnsblock/dnsmasq or use /etc/dnsblock/blocklist in any way you like
 
-## update
+## Update Blocklists
 
 To update the blocklist manually:
-* cd files
-* make update
+* `cd dnsblock/files`
+* `make update`
 
 ## current list of blocklists included
 
