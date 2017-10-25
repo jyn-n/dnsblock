@@ -206,8 +206,10 @@
 127.0.0.1 ad2.iinfo.cz
 127.0.0.1 ad2.linxcz.cz
 127.0.0.1 ad2.lupa.cz
+127.0.0.1 ad2.xrea.com
 127.0.0.1 ad3.iinfo.cz
 127.0.0.1 ad3.pamedia.com.au
+127.0.0.1 ad3.xrea.com
 127.0.0.1 ad4game.com
 127.0.0.1 ad.71i.de
 127.0.0.1 ad.a8.net
@@ -293,6 +295,8 @@
 127.0.0.1 adf.ly
 127.0.0.1 adforce.com
 127.0.0.1 adform.com
+127.0.0.1 adformdsp.net
+127.0.0.1 adform.net
 127.0.0.1 ad.foxnetworks.com
 127.0.0.1 ad.freecity.de
 127.0.0.1 adgardener.com
@@ -976,6 +980,7 @@
 127.0.0.1 adxpansion.com
 127.0.0.1 adxpose.com
 127.0.0.1 adxprts.com
+127.0.0.1 ad.xrea.com
 127.0.0.1 adxvalue.com
 127.0.0.1 ad.yadro.ru
 127.0.0.1 adyea.com
@@ -1727,6 +1732,7 @@
 127.0.0.1 internetfuel.com
 127.0.0.1 interreklame.de
 127.0.0.1 interstat.hu
+127.0.0.1 ioam.de
 127.0.0.1 ip193.cn
 127.0.0.1 iperceptions.com
 127.0.0.1 ip.ro
@@ -1736,6 +1742,7 @@
 127.0.0.1 itop.cz
 127.0.0.1 itsptp.com
 127.0.0.1 its-that-easy.com
+127.0.0.1 ivwbox.de
 127.0.0.1 ivykiosk.com
 127.0.0.1 i.xx.openx.com
 127.0.0.1 jcount.com
@@ -4318,6 +4325,8 @@ adforce.com
 adforce.imgis.com
 adforce.ru
 adform.com
+adformdsp.net
+adform.net
 ad.fout.jp
 ad.foxnetworks.com
 ad.fr.doubleclick.net
@@ -8542,6 +8551,7 @@ anaksma.info
 anal-acrobats.com
 analxxxclipsyjh.dnset.com
 analysis.fc2.com
+analysis.polarisoffice.com
 analytic.ae.com
 analyticcdn.globalmailer.com
 analytic.detik.com
@@ -8555,6 +8565,7 @@ analytics.amakings.com
 analytics.amilliamilli.com
 analytics.analytics-egain.com
 analytics.androidandme.com
+analyticsapi.bsbportal.com
 analytics-api-samples.googlecode.com
 analytics.atdmt.com
 analytics.atomiconline.com
@@ -8566,9 +8577,13 @@ analytics.breakingnews.com
 analytics.brightedge.com
 analytics.clickdimensions.com
 analytics.clickpathmedia.com
+analytics.cloudron.io
 analytics.cnd-motionmedia.de
 analytics.codigo.se
+analytics.colacoweb.net
 analytics.dev.popdust.com
+analytics.digit.in
+analytics-digit-in.cdn.ampproject.org
 analytics.disneyinternational.com
 analytics-eu.clickdimensions.com
 analytics.fairfax.com.au
@@ -8579,23 +8594,33 @@ analytics.google.com
 analytics.harpercollins.com
 analytics.hayneedle.com
 analytics.hgcdn.net
+analytics.jabong.com
 analytics.juggle.com
 analytics.kaltura.com
 analytics.ku6.com
 analytics.kwebsoft.com
 analytics.live.com
+analytics.lk.api.ditto.com
 analytics.localytics.com
+analytics.logsss.com
 analytics.mail-corp.com
+analytics.mailmunch.co
+analytics.mopub.com
 analytics.msnbc.com
 analytics.msnbc.msn.com
 analytics.msn.com
+analytics.mytvzion.pro
 analytics.newsinc.com
 analytics.newsvine.com
 analytics.onesearch.id
 analytics.ooyala.com
 analytic.spamfighter.com
 analytics.percentmobile.com
+analytics.phando.com
+analytics.picsart.com
 analytics.pimproll.com
+analytics.poolshool.com
+analytics.posttv.com
 analytics.prx.org
 analytics.query.yahoo.com
 analytics.radiatemedia.com
@@ -8607,6 +8632,7 @@ analytics.safelinking.net
 analytics.sanoma.fi
 analytics.services.kirra.nl
 analytics.shareaholic.com
+analytics.siliconexpert.com
 analytics.sitewit.com
 analytics.slashdotmedia.com
 analytics.soup.io
@@ -8620,6 +8646,7 @@ analytics.sutterhealth.org
 analytics.tbs.com
 analytics.theknot.com
 analytics.thenest.com
+analytics.thevideo.me
 analytics.tout.com
 analytics.trutv.com
 analytics.upworthy.com
@@ -8643,6 +8670,7 @@ anapixel.elmundo.es
 anapixel.marca.com
 anatomytrains.co.uk
 anat.tacoda.net
+anayltics.kuikr.com
 ancestrymsn.112.2o7.net
 ancestryuki.112.2o7.net
 anchor.coadvertise.com
@@ -17241,6 +17269,7 @@ entrepreneur.us.intellitxt.com
 entretiencapital.com
 # entries:        2466
 # entries:        2469
+# entries:        2472
 entry-stats.huffingtonpost.com
 en.ultrex.ru
 envaseslotusama.com
@@ -22746,6 +22775,7 @@ in.yimg.com
 inzn.ru
 in.zog.link
 io9.com
+ioam.de
 iocdn.coremetrics.com
 i-odbierz-nike.pl
 ioit.iovation.com
@@ -23028,6 +23058,7 @@ ivis2016.org
 ivitrine.buscape.com
 ivoiretechnocom.ci
 ivox.socratos.net
+ivwbox.de
 ivykiosk.com
 i.w55c.net
 iwa.hit.interia.pl
@@ -24420,6 +24451,7 @@ lastmeasure.zoy.org
 lastminengb.112.2o7.net
 # last updated:   Thu, 12 Oct 2017 15:12:09 GMT
 # last updated:   Tue, 17 Oct 2017 10:03:39 GMT
+# last updated:   Wed, 25 Oct 2017 07:55:31 GMT
 lasvagastours.com
 lasvegaslockandsafe.com
 lat34.us.intellitxt.com
@@ -36835,6 +36867,7 @@ start.badults.se
 # start date:    Sat, 25 Oct 1997 00:00:00
 # start date:    Sun, 26 Oct 1997 00:00:00
 # start date:    Thu, 23 Oct 1997 00:00:00
+# start date:    Thu, 30 Oct 1997 00:00:00
 # start date:    Tue, 28 Oct 1997 00:00:00
 # start date:    Wed, 29 Oct 1997 00:00:00
 start.freeze.com
