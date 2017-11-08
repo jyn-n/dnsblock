@@ -60,6 +60,7 @@
 127.0.0.1 ad1.pamedia.com.au
 127.0.0.1 ad2flash.com
 127.0.0.1 ad2games.com
+127.0.0.1 ad2games.com.invalid
 127.0.0.1 ad2.iinfo.cz
 127.0.0.1 ad2.linxcz.cz
 127.0.0.1 ad2.lupa.cz
@@ -265,6 +266,7 @@
 127.0.0.1 adorigin.com
 127.0.0.1 ad.pandora.tv
 127.0.0.1 ad-pay.de
+127.0.0.1 adpenguin.biz
 127.0.0.1 adpepper.dk
 127.0.0.1 adpepper.nl
 127.0.0.1 adperium.com
@@ -718,6 +720,7 @@
 127.0.0.1 ads.tripod.lycos.nl
 127.0.0.1 ads.tripod.spray.se
 127.0.0.1 ads.tso.dennisnet.co.uk
+127.0.0.1 ads.twitter.com
 127.0.0.1 ads.uknetguide.co.uk
 127.0.0.1 ads.ultimate-guitar.com
 127.0.0.1 ads.uncrate.com
@@ -1727,6 +1730,7 @@
 127.0.0.1 methodcash.com
 127.0.0.1 metrics.cnn.com
 127.0.0.1 metrics.ctv.ca
+127.0.0.1 metrics.govexec.com
 127.0.0.1 metrics.windowsitpro.com
 127.0.0.1 mgid.com
 127.0.0.1 miarroba.com
@@ -3859,6 +3863,7 @@ entrecard.s3.amazonaws.com
 # entries:        2466
 # entries:        2467
 # entries:        2469
+# entries:        2470
 # entries:        2472
 e-planning.net
 eqads.com
@@ -4133,6 +4138,7 @@ lakequincy.com
 # last updated:   Mon, 06 Nov 2017 09:32:14 GMT
 # last updated:   Thu, 12 Oct 2017 15:12:09 GMT
 # last updated:   Tue, 17 Oct 2017 10:03:39 GMT
+# last updated:   Wed, 08 Nov 2017 09:34:12 GMT
 # last updated:   Wed, 25 Oct 2017 06:55:31 GMT
 # last updated:   Wed, 25 Oct 2017 07:55:31 GMT
 launchbit.com
@@ -4687,6 +4693,7 @@ starffa.com
 # start date:    Sat, 25 Oct 1997 00:00:00
 # start date:    Sun, 02 Nov 1997 00:00:00
 # start date:    Sun, 26 Oct 1997 00:00:00
+# start date:    Thu, 13 Nov 1997 00:00:00
 # start date:    Thu, 23 Oct 1997 00:00:00
 # start date:    Thu, 30 Oct 1997 00:00:00
 # start date:    Tue, 04 Nov 1997 00:00:00
