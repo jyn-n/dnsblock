@@ -21,6 +21,7 @@ check() {
 }
 
 pkgver() {
+	cd "${srcdir}/dnsblock"
 	printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
