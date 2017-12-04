@@ -1218,6 +1218,7 @@
 127.0.0.1 cnt.spbland.ru
 127.0.0.1 code-server.biz
 127.0.0.1 coinhive.com
+127.0.0.1 cointraffic.io
 127.0.0.1 colonize.com
 127.0.0.1 comclick.com
 127.0.0.1 commandwalk.com
@@ -1285,6 +1286,7 @@
 127.0.0.1 crownclam.com
 127.0.0.1 crtv.mate1.com
 127.0.0.1 crwdcntrl.net
+127.0.0.1 ctnet2.in
 127.0.0.1 ctnetwork.hu
 127.0.0.1 cubics.com
 127.0.0.1 curtaincows.com
@@ -1643,11 +1645,13 @@
 127.0.0.1 kissmetrics.com
 127.0.0.1 kliks.nl
 127.0.0.1 kniverto.com
+127.0.0.1 koinser.in
 127.0.0.1 komoona.com
 127.0.0.1 kompasads.com
 127.0.0.1 kontera.com
 127.0.0.1 kt-g.de
 127.0.0.1 ktu.sv2.biz
+127.0.0.1 lacerta.space
 127.0.0.1 lakequincy.com
 127.0.0.1 launchbit.com
 127.0.0.1 layer-ad.de
@@ -3916,6 +3920,7 @@ entrecard.s3.amazonaws.com
 # entries:        2485
 # entries:        2489
 # entries:        2492
+# entries:        2496
 e-planning.net
 eqads.com
 ero-advertising.com
@@ -4186,6 +4191,7 @@ kontera.com
 kt-g.de
 ktu.sv2.biz
 lakequincy.com
+# last updated:   Fri, 01 Dec 2017 13:42:43 GMT
 # last updated:   Fri, 10 Nov 2017 15:17:09 GMT
 # last updated:   Fri, 24 Nov 2017 11:53:05 GMT
 # last updated:   Mon, 06 Nov 2017 09:32:14 GMT
@@ -4772,6 +4778,7 @@ starffa.com
 # start date:    Thu, 30 Oct 1997 00:00:00
 # start date:    Tue, 02 Dec 1997 00:00:00
 # start date:    Tue, 04 Nov 1997 00:00:00
+# start date:    Tue, 09 Dec 1997 00:00:00
 # start date:    Tue, 11 Nov 1997 00:00:00
 # start date:    Tue, 18 Nov 1997 00:00:00
 # start date:    Tue, 25 Nov 1997 00:00:00
