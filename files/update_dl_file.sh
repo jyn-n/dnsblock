@@ -21,8 +21,11 @@ case $1 in
 	'yoyo.dl')
 		cat $dlfile > $tmp1
 		;;
-	'kadhosts.dl'|'badd_boyz.dl')
+	'badd_boyz.dl')
 		sed -n 's/^0.0.0.0\s*//p' < $dlfile > $tmp1
+		;;
+	'kadhosts.dl')
+		sed -n 's/^0.0.0.0\s*//p' < $dlfile | tr -d '\r' > $tmp1
 		;;
 	'sbc.dl')
 		sed -n 's/^0.0.0.0\s*//p' < $dlfile | sed '/^0.0.0.0$/d' >  $tmp1
