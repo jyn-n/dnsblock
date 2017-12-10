@@ -19,7 +19,7 @@ case $1 in
 		sed '/#.*<localhost>/,/#.*<\/localhost>/d' < $dlfile | sed 's/#0.0.0.0/0.0.0.0/' | sed 's/#.*$//' | sed 's/^0.0.0.0 //' | sed 's/\s//g' | sed '/^$/d' | sort | uniq > $tmp1
 		;;
 	'yoyo.dl')
-		sed '/^#/d' < $dlfile > $tmp1
+		sed '/^#/d' < $dlfile | sed 's/^127.0.0.1 //' > $tmp1
 		;;
 	'badd_boyz.dl')
 		sed -n 's/^0.0.0.0\s*//p' < $dlfile > $tmp1
