@@ -38,7 +38,7 @@ out=$1
 
 cat $tmp1 > $tmp2
 
-[[ -f $out ]] && cat $tmp1 $out | sort | uniq > $tmp2
+#[[ -f $out ]] && cat $tmp1 $out | sort | uniq > $tmp2
 
 [[ 0 -eq $(diff $tmp2 $out | wc -l) ]] || cp $tmp2 $out
 
