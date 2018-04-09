@@ -27,6 +27,9 @@
 123greetings.com
 123plays.com
 123specialgifts.com
+127.0.0.1local
+127.0.0.1localhost
+127.0.0.1localhost.localdomain
 130.211.230.53
 140cc.v.fwmrm.net
 15.basebanner.com
@@ -41,7 +44,9 @@
 1girl1pitcher.org
 1guy1cock.com
 1.httpads.com
+::1ip6-localhostip6-loopback
 1kdailyprofit.biz
+::1localhost
 1man1jar.org
 1man2needles.com
 1priest1nun.com
@@ -71,6 +76,7 @@
 24upgradecheck.thesteadysystemforupgrades.download
 24x7.soliday.org
 25184.hittail.com
+255.255.255.255broadcasthost
 2754.btrll.com
 2.adbrite.com
 2-art-coliseum.com
@@ -232,7 +238,6 @@ ac.tynt.com
 acvs.mediaonenetwork.net
 acvsrv.mediaonenetwork.net
 acyclovir.1.p2l.info
-ad
 ad001.ru
 ad01.adonspot.com
 ad01.focalink.com
@@ -5193,6 +5198,7 @@ fcstats.bcentral.com
 fc.webmasterpro.de
 fdbdo.com
 fdimages.fairfax.com.au
+fe00::0ip6-localnet
 fe1-au.imrworldwide.com
 fe1-fi.imrworldwide.com
 fe1-it.imrworldwide.com
@@ -5221,6 +5227,10 @@ fengfengtiessp.com.cn
 fengyixin.com
 ferrago.uk.intellitxt.com
 fervortracer.com
+ff00::0ip6-mcastprefix
+ff02::1ip6-allnodes
+ff02::2ip6-allrouters
+ff02::3ip6-allhosts
 fflotte.oewabox.at
 ffxitrack.com
 fg.softguy.com
@@ -9775,6 +9785,7 @@ softonic.com
 softonic.it
 softpedia.uk.intellitxt.com
 softreadynow.thebigforeverupgrade.review
+softreadynow.thereadysetandgoforcontentprepared.trade
 softreadynow.thespaceupdatespcandmac.info
 softwarepiset.com
 software-updates.co
@@ -12577,6 +12588,7 @@ www.incestdot.com
 www.incestgold.com
 www.inckamedia.com
 www.indesignstudioinfo.com
+www.indexerflash.com
 www.indiads.com
 www.infinite-ads.com
 www.infopaypal.com
