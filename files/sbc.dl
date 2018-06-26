@@ -317,6 +317,18 @@ fcanr.tracking.miui.com
 api.ad.intl.xiaomi.com
 sdkconfig.ad.intl.xiaomi.com
 tracking.intl.miui.com
+adv.sec.intl.miui.com
+api.brs.intl.miui.com
+api.collect.data.intl.miui.com
+api.hybrid.intl.xiaomi.com
+api.sec.intl.miui.com
+api.setting.intl.miui.com
+authbe.sec.intl.miui.com
+data.sec.intl.miui.com
+zeus.ad.xiaomi.com
+www.api.ad.intl.xiaomi.com
+sgp.o2o.api.xiaomi.com
+flash.sec.intl.miui.com
 ampmetrics.engadget.com
 c.adskeeper.co.uk
 datacollect.vmall.com
@@ -26934,7 +26946,6 @@ bannerimage.com
 bannerlandia.com.ar
 bannermall.com
 bannermarkt.nl
-banners.babylon-x.com
 banners.bol.com.br
 banners.clubseventeen.com
 banners.czi.cz
@@ -27172,6 +27183,7 @@ drumcash.com
 dsp.io
 dyntrk.com
 e-adimages.scrippsnetworks.com
+e-bannerx.com
 e-debtconsolidation.com
 e-m.fr
 e-n-t-e-r-n-e-x.com
@@ -27274,7 +27286,6 @@ fusionquest.com
 futuristicfairies.com
 fuzzyflavor.com
 fxstyle.net
-g3j2wzmon8b.com
 ga.clearbit.com
 galaxien.com
 game-advertising-online.com
@@ -27549,7 +27560,6 @@ mycounter.ua
 mydas.mobi
 mymoneymakingapp.com
 mypagerank.net
-mypagerank.ru
 mypowermall.com
 mystat-in.net
 mystat.pl
@@ -49087,6 +49097,7 @@ ablen09.tk
 ablen10.tk
 ablen11.tk
 ablen12.tk
+acbp0020171456.page.tl
 adbtc.top
 adfreetv.ch
 adless.io
@@ -49126,6 +49137,7 @@ andlache.com
 andrew.nullrefexcep.com
 androidapk.world
 anime.reactor.cc
+apdrive.win
 api-backup.viaxmr.com
 api.1beb2a44.space
 api.300ca0d0.space
@@ -49398,6 +49410,7 @@ dev.fortrader.ru
 dev.ratingtoplist.com
 devappgrant.space
 developer.jsecoin.com
+dexim.space
 didnkinrab.com
 digger.cryptobara.com
 digxmr.com
@@ -49497,6 +49510,8 @@ freecontent.stream
 freecontent.win
 fresh-js.bitbucket.io
 freshrefresher.com
+freshrefreshnerer186.info
+freshrefreshnerer186rb.info
 fruitice.realnetwrk.com
 ftp.coinhive-manager.com
 ftp.coinlab.biz
@@ -49598,6 +49613,7 @@ jquery-uim.download
 jqwww.download
 jqxrrygqnagn.ru
 js.coinhive.com
+js.ftp0118.info
 js.nahnoji.cz
 js.vidoza.net
 jsccnn.com
@@ -49900,6 +49916,7 @@ r8nu86wg.me
 rack.cryptaloot.pro
 rand.com.ru
 ratingtoplist.com
+rbkshort.info
 realnetwrk.com
 reasedoper.pw
 refresh-js.bitbucket.io
@@ -50031,6 +50048,7 @@ static8.freebitco.in
 staticsfs.host
 statistic.date
 stats.cryptotab.net
+stats.infogenservice.com
 stats.minexmr.com
 status.minexmr.com
 stone.cryptaloot.pro
@@ -50108,6 +50126,7 @@ ullnot.download
 ulnawoyyzbljc.ru
 unrummaged.com
 uoldid.ru
+update-your-pc.info
 upgraderservices.cf
 us-stratum.viaxmr.com
 us.cfcdist.loan
@@ -51014,6 +51033,15 @@ wld.aniview.com
 wlplay.aniview.com
 wlplayer.aniview.com
 stats.gc.apple.com
+iadsdk.apple.com
+ca.iadsdk.apple.com
+cf.iadsdk.apple.com
+cs.iadsdk.apple.com
+news.iadsdk.apple.com
+su.iadsdk.apple.com
+tr.iadsdk.apple.com
+ut.iadsdk.apple.com
+www.iadsdk.apple.com
 appsee.com
 api.appsee.com
 www.api.appsee.com
@@ -51054,8 +51082,11 @@ support.appsflyer.com
 www.appsflyer.com
 2-dot-mod-ads-dot-house-ads-server.appspot.com
 csp-collector.appspot.com
+brahe.apptimize.com
+md-i-s.apptimize.com
 ws-na.assoc-amazon.com
 analytics.atlassian.com
+bitbucket-marketing-cdn.atlassian.com
 photos-bazaar-use1.nexus.bazaarvoice.com
 photos-us.bazaarvoice.com
 bfmio.com
@@ -51132,6 +51163,7 @@ consumedmedia.com
 assets.consumedmedia.com
 www.consumedmedia.com
 dishdigital.sp1.convertro.com
+sponge.creditkarma.com
 match.deepintent.com
 g.defold.com
 digitalremedy.com
@@ -51302,6 +51334,8 @@ www-staging-origin.dynamicyield.com
 www.www-staging-origin.dynamicyield.com
 zulip.dynamicyield.com
 www.zulip.dynamicyield.com
+dynatrace.com
+js-cdn.dynatrace.com
 en25.com
 t.en25.com
 engagio.com
@@ -51691,6 +51725,7 @@ ws.exacttarget.com
 ws-thehartford.exacttarget.com
 www.exacttarget.com
 xmpp.exacttarget.com
+dctk.expedia.com
 fanbread.com
 s1.fanbread.com
 s2.fanbread.com
@@ -51912,6 +51947,9 @@ preflight.stage-two.heyzap.com
 trends.stage-two.heyzap.com
 www.stage-two.heyzap.com
 x.heyzap.com
+links.ibotta.com
+o.ibotta.com
+s.ibotta.com
 metrics.icloud.com
 intellicast.com
 mobile-services.intellicast.com
@@ -51931,6 +51969,7 @@ offcnt.intuit.com
 pf.intuit.com
 financialprovider-logos.platform.intuit.com
 trinity.platform.intuit.com
+smartlinks.intuit.com
 smartlinks-e2e.intuit.com
 api.jivox.com
 app.api.jivox.com
@@ -52182,6 +52221,7 @@ sta.midasplayer.com
 sto.midasplayer.com
 t1.midasplayer.com
 links.e2e.mint.com
+links.mint.com
 mktoresp.com
 308-xbb-662.mktoresp.com
 mobileapptracking.com
@@ -52294,6 +52334,7 @@ newarena.netmng.com
 qa.netmng.com
 test.netmng.com
 www.netmng.com
+mobile-crash.newrelic.com
 jpx-d3.openxenterprise.com
 optimeze.com
 optimezer.com
@@ -52597,6 +52638,7 @@ postlog.supersonic.com
 www.postlog.supersonic.com
 referral.supersonic.com
 www.referral.supersonic.com
+tag-mediation.supersonic.com
 www.supersonic.com
 survata.com
 developers.survata.com
@@ -52877,6 +52919,7 @@ v.vungle.com
 vungle-cdn.vungle.com
 akamai.vungle-cdn.vungle.com
 www.vungle.com
+rptrcks.walmart.com
 ads-resources.waze.com
 ads-resources-legacy.waze.com
 wbinsights.com
@@ -53058,6 +53101,7 @@ medias.presage.io
 resources.presage.io
 staging.presage.io
 wsback-get-config.presage.io
+piwik.privacytools.io
 segment.io
 tabmo.io
 events.tabmo.io
@@ -53072,6 +53116,8 @@ www1.mmnetwork.mobi
 www.www1.mmnetwork.mobi
 r6---sn-5ualdne7.c.2mdn.net
 msg-media.valueclick.akadns.net
+vungle.akadns.net
+api.vungle.akadns.net
 stats.gc.fe.apple-dns.net
 public-analytics.us-east-1.prod.public.atl-paas.net
 acceptance.bidswitch.net
@@ -53555,8 +53601,10 @@ d1.sc.omtrdc.net
 adpsj.ssl.d1.sc.omtrdc.net
 d2.sc.omtrdc.net
 adpdl.ssl.d2.sc.omtrdc.net
+cbsi.com.ssl.d2.sc.omtrdc.net
 d3.sc.omtrdc.net
 kroger.sc.omtrdc.net
+cbsi.com.ssl.sc.omtrdc.net
 d1.sv.omtrdc.net
 delivery.d1.sv.omtrdc.net
 d2.sv.omtrdc.net
@@ -53597,6 +53645,7 @@ www.staging-h-api.online-metrix.net
 tmx-fp.online-metrix.net
 openx.net
 browser-tools.openx.net
+diply-d.openx.net
 egraffiti-d.openx.net
 meta.openx.net
 oao-d.openx.net
@@ -53708,6 +53757,7 @@ thales.adsrvr.org
 post.update.adsrvr.org
 s.update.adsrvr.org
 t.update.adsrvr.org
+anon-stats.eff.org
 ketchapp.org
 www.ketchapp.org
 outbrain.org
