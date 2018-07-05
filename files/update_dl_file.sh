@@ -6,6 +6,7 @@ url=( ['someonewhocares.dl']=http://someonewhocares.org/hosts/zero/hosts \
 	['kadhosts.dl']=https://raw.githubusercontent.com/azet12/KADhosts/master/KADhosts.txt \
 	['badd_boyz.dl']=https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts \
 	['sbc.dl']=http://sbc.io/hosts/hosts \
+	['steven_black.dl']=https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts \
 	)
 
 dlfile=$(mktemp)
@@ -28,7 +29,10 @@ case $1 in
 		sed -n 's/^0.0.0.0\s*//p' < $dlfile | tr -d '\r' > $tmp1
 		;;
 	'sbc.dl')
-		sed -n 's/^0.0.0.0\s*//p' < $dlfile | sed '/^0.0.0.0$/d' >  $tmp1
+		sed -n 's/^0.0.0.0\s*//p' < $dlfile | sed '/^0.0.0.0$/d' > $tmp1
+		;;
+	'steven_black.dl')
+		sed -n '/# http:\/\/stevenblack.com/p' < $dlfile | sed -e '/^#/d' -e '/^$/d' | sed 's/^0.0.0.0 //' > $tmp1
 		;;
 esac
 
