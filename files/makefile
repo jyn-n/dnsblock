@@ -4,7 +4,7 @@ CMDSEP ?= \
 
 CAT ?= cat
 RM ?= rm -f
-SH ?= sh
+SH ?= bash
 
 name = dnsblock
 hosts = someonewhocares yoyo kadhosts badd_boyz sbc steven_black
