@@ -29,7 +29,8 @@ case $1 in
 		sed -n 's/^0.0.0.0\s*//p' < $dlfile | tr -d '\r' > $tmp1
 		;;
 	'sbc.dl')
-		sed -n 's/^0.0.0.0\s*//p' < $dlfile | sed '/^0.0.0.0$/d' > $tmp1
+		sed -n 's/^0.0.0.0\s*//p' < $dlfile | sed '/r6---sn-5ualdne7.c.2mdn.net/d' | sed '/^0.0.0.0$/d' > $tmp1
+#don't know why that line produces an error...
 		;;
 	'steven_black.dl')
 		sed -n '/# http:\/\/stevenblack.com/p' < $dlfile | sed -e '/^#/d' -e '/^$/d' | sed 's/^0.0.0.0 //' > $tmp1
