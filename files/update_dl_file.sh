@@ -1,7 +1,7 @@
 #!/bin/bash
 
 declare -A url
-url=( ['someonewhocares.dl']=http://someonewhocares.org/hosts/zero/hosts \
+url=( ['someonewhocares.dl']=https://someonewhocares.org/hosts/zero/hosts \
 	['yoyo.dl']=http://pgl.yoyo.org/as/serverlist.php?mimetype=plaintext \
 	['kadhosts.dl']=https://raw.githubusercontent.com/azet12/KADhosts/master/KADhosts.txt \
 	['badd_boyz.dl']=https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts \
