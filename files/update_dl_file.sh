@@ -29,7 +29,12 @@ case $1 in
 		sed -n 's/^0.0.0.0\s*//p' < $dlfile | tr -d '\r' > $tmp1
 		;;
 	'sbc.dl')
-		sed -n 's/^0.0.0.0\s*//p' < $dlfile | sed -e '/r6---sn-5ualdne7.c.2mdn.net/d' -e '/hm--test2.vergic.com/d' | sed '/^0.0.0.0$/d' > $tmp1
+		sed -n 's/^0.0.0.0\s*//p' < $dlfile \
+		| sed \
+				-e '/r6---sn-5ualdne7.c.2mdn.net/d' \
+				-e '/hm--test2.vergic.com/d' \
+				-e '/r1---sn-ab5l6nes.c.googlesyndication.com/d' \
+		| sed '/^0.0.0.0$/d' > $tmp1
 #don't know why those lines produce errors...
 		;;
 	'steven_black.dl')
